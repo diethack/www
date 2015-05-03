@@ -2,6 +2,9 @@
 
 Homepage build automation for [diethack](http://www.diethack.org).
 This is a reproducible build: all dependencies versions are frozen.
+Among other things, it builds the example diet reports using the actual
+library code, so it can be used as a reference when building the
+[diethacks](https://github.com/diethack/diethack).
 In the end it deploys everything to the Git repo.
 
 ## How to Build
