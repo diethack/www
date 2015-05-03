@@ -71,7 +71,7 @@
           <p class="text-justify">
             Just for fun, I also computed a diet meeting the same requirements
             as above, but composed of random products from USDA National
-            Nutrition Database.
+            Nutrient Database.
             There's no price information in it though.<br>
             <a href="randomdiet.html">Full report</a>.</p>
           <p class="text-justify">
@@ -84,9 +84,36 @@
           <p class="text-justify">
             It's a Python library.
             Through its API you define the goal as acceptable ranges for
-            each element, specify the products to compose the diet of,
+            each element, specify which products to compose the diet of,
             run the solver to find the cheapest solution,
             and save the report.</p>
+          <p class="text-justify">
+            Solves the
+            <a href="http://en.wikipedia.org/wiki/Stigler_diet"
+            >diet problem</a>.
+            Finds in what proportions you need to mix the food products, so
+            that all micro- and macroelements are within acceptable ranges,
+            and the result is the cheapest possible.</p>
+          <p class="text-justify">
+            Predefined and custom food products.
+            Full USDA
+            <a href="http://ndb.nal.usda.gov/"
+            >National Nutrient Database</a> is included in the distrubution.
+            You can use it as a base when defining your custom products
+            available in your local stores.</p>
+          <p class="text-justify">
+            Several types of reports.
+            <a href="olegusdiet.html">Full report</a> shows detailed
+            contribution of each of the products to the final solution.
+            <a href="olegusdiet-shoplist.html">Shopping list</a> does what
+            it sounds like.
+            <a href="olegusdiet.txt">Summary</a> can be used when cooking
+            the meal.</p>
+          <p class="text-justify">
+            It runs on Arch Linux, but with a reasonable amount of
+            <a href="https://github.com/diethack/diethack">effort</a>
+            can be built on Windows, Mac OS X and Unix-like operating
+            systems.</p>
         </div></div>
       <hr>
       <p class="text-muted text-right">
