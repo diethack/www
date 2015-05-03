@@ -21,8 +21,8 @@ npm install jquery@1.11.2
 # diethack
 git clone https://github.com/diethack/diethack /diethack-www/diethack.git
 cd /diethack-www/diethack.git
-git checkout 0.0.0
+git checkout 1.0.0
 cd /diethack-www/diethack.git/pkg/archlinux
 makepkg -sc --noconfirm
-sudo pacman -U --noconfirm python2-diethack-0.0.0-1-any.pkg.tar.xz
-rm python2-diethack-0.0.0-1-any.pkg.tar.xz
+sudo pacman -U --noconfirm python2-diethack-1.0.0-1-any.pkg.tar.xz
+rm python2-diethack-1.0.0-1-any.pkg.tar.xz

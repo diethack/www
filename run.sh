@@ -14,5 +14,5 @@ docker run --rm -t \
     -v /etc/diethack-www:/etc/diethack-www:ro \
     -v /var/tmp/diethack-www:/var/tmp/diethack-www \
     --name diethack-www -h diethack-www \
-    diethack/diethack-www:0 \
+    diethack/diethack-www:1 \
     sudo -iu user /diethack-www/run/run.sh
