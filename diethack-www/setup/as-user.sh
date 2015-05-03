@@ -24,5 +24,5 @@ cd /diethack-www/diethack.git
 git checkout 0.0.0
 cd /diethack-www/diethack.git/pkg/archlinux
 makepkg -sc --noconfirm
-sudo pacman -U --noconfirm diethack-0.0.0-1-any.pkg.tar.xz
-rm diethack-0.0.0-1-any.pkg.tar.xz
+sudo pacman -U --noconfirm python2-diethack-0.0.0-1-any.pkg.tar.xz
+rm python2-diethack-0.0.0-1-any.pkg.tar.xz
